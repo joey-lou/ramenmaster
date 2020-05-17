@@ -23,7 +23,30 @@ p{
   color: black;
 }
 
-/* class selectors */
+/* body:hover{
+  background-color: red;
+} */
+
+img:hover{
+  background-color: gold;
+}
+/* class selectors, can have multiple repeated class on same page,
+  can be stacked on top of each other by specifying multiple at the
+  same time  */
 .ramen{
   background-color: white;
+}
+
+.circular{
+  border-radius: 100%;
+}
+
+.subtitle:hover{
+  background-color: gold;
+}
+
+/* ID selectors, note id is unique on each page */
+#heading{
+  color: #be79df;
+  font-size: 80px;
 }
