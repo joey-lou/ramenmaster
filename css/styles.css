@@ -1,60 +1,80 @@
 /* tag selectors */
-body{
+body {
   background-color: #eae7d9;
   color: #4d3e3e;
   font-family: 'Merriweather', serif;
+  text-align: center;
 }
-hr{
+
+hr {
   border-style: none;
   border-top-style: dotted;
   border-color: #888888;
   border-width: 4px;
-  width:10%;
+  width: 15%;
 }
-h1{
+
+h1 {
   color: #4d3e3e;
   font-family: 'Monoton', cursive;
 }
-h2{
+
+h2 {
   color: #4d3e3e;
   font-family: 'Roboto', sans-serif;
 }
-h3{
+
+h3 {
   color: #4d3e3e;
   font-family: 'Roboto', sans-serif;
 }
-a{
+
+a {
   color: #7d5a5a;
 }
-p{
+
+p {
   color: black;
 }
+
+table {
+  margin: auto;
+}
+
 
 /*
 table:hover{
   background-color: red;
 } */
 
-img:hover{
+img:hover {
   background-color: gold;
 }
+
 /* class selectors, can have multiple repeated class on same page,
   can be stacked on top of each other by specifying multiple at the
   same time  */
-.ramen{
+.ramen {
   background-color: white;
 }
 
-.circular{
+.list {
+  position: relative;
+  /* margin: 0 30%; */
+  padding-left: 40%;
+  text-align: left;
+}
+
+.circular {
   border-radius: 100%;
 }
 
-.subtitle:hover{
+.subtitle:hover {
   background-color: gold;
 }
 
 /* ID selectors, note id is unique on each page */
-#heading{
+#heading {
   color: #be79df;
   font-size: 80px;
 }
