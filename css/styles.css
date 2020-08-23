@@ -4,6 +4,7 @@ body {
   color: #4d3e3e;
   font-family: 'Merriweather', serif;
   text-align: center;
+  margin: 0;
 }
 
 hr {
@@ -15,7 +16,8 @@ hr {
 }
 
 h1 {
-  color: #4d3e3e;
+  color: #be79df;
+  font-size: 4rem;
   font-family: 'Monoton', cursive;
 }
 
@@ -33,13 +35,13 @@ a {
   color: #7d5a5a;
 }
 
-p {
-  color: black;
-}
 
 table {
+  width: 100%;
   margin: auto;
 }
+
+
 
 
 /*
@@ -56,6 +58,14 @@ img:hover {
   same time  */
 .ramen {
   background-color: white;
+  float: left;
+  margin-right: 2em;
+}
+
+.intro {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
 }
 
 .list {
@@ -73,8 +83,60 @@ img:hover {
   background-color: gold;
 }
 
+.skills {
+  margin: 4em auto;
+  width: 50%;
+}
+
+.secret {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.review {
+  width: 70%;
+  margin: auto;
+  text-align: left
+}
+
+.skill-row {
+  text-align: justify;
+  line-height: 2;
+}
+
+.bottom-container {
+  background-color: rgba(255, 174, 0, 0.856);
+  color: #ffffff;
+  margin: 5em auto 0;
+  padding-top: 3em;
+}
+
+.btn {
+  background: #de9e1f;
+  background-image: -webkit-linear-gradient(top, #de9e1f, #b8742b);
+  background-image: -moz-linear-gradient(top, #de9e1f, #b8742b);
+  background-image: -ms-linear-gradient(top, #de9e1f, #b8742b);
+  background-image: -o-linear-gradient(top, #de9e1f, #b8742b);
+  background-image: linear-gradient(to bottom, #de9e1f, #b8742b);
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 1.3em;
+  padding: .5em 1em;
+  text-decoration: none;
+  position: relative;
+  top: 2em;
+}
+
+.btn:hover {
+  background: gold;
+}
+
 /* ID selectors, note id is unique on each page */
-#heading {
+/* #heading {
   color: #be79df;
   font-size: 80px;
-}
+} */
